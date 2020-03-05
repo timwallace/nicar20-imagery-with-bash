@@ -11,7 +11,7 @@ function video_from_images(){
   frame_rate=$1
   file_extension=$2
   output=$3
-  ffmpeg -r $frame_rate -f image2 -pattern_type glob -i '*.$file_extension' -acodec libmp3lame $output
+  ffmpeg -r $frame_rate -f image2 -pattern_type glob -i '*.'"$file_extension" -acodec libmp3lame $output
 }
 ```
 
