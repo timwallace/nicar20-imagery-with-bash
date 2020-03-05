@@ -5,7 +5,7 @@ Dependencies: [FFmpeg](https://www.ffmpeg.org/), [GDAL](https://gdal.org/), [Gif
 
 
 ## Video/Motion
-### Take all images (in alphabetical order) with the same file extension and make a video at a specified frame rate.
+#### Take all images (in alphabetical order) with the same file extension and make a video at a specified frame rate.
 ```
 function video_from_images(){
   frame_rate=$1
@@ -15,7 +15,7 @@ function video_from_images(){
 }
 ```
 
-### Make any video websafe. Helpful when a video seems broken (but isn't), or to maximize compatibility.
+#### Make any video websafe. Helpful when a video seems broken (but isn't), or to maximize compatibility.
 ```
 function websafe(){
   suffix=_websafe.mp4
@@ -25,7 +25,7 @@ function websafe(){
 }
 ```
 
-### Gif sequence of images with fade transition
+#### Gif sequence of images with fade transition
 ```
 function gif_fade(){
   file_extension=$1
@@ -35,7 +35,7 @@ function gif_fade(){
 }
 ```
 
-### Optimize gif
+#### Optimize gif
 ```
 function optimize_gif(){
   input=$1
