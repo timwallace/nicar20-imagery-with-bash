@@ -3,7 +3,7 @@
 
 Dependencies: [FFmpeg](https://www.ffmpeg.org/), [GDAL](https://gdal.org/), [Gifsicle](https://www.lcdf.org/gifsicle/), [ImageMagick](https://imagemagick.org/index.php)
 
-If [wrangling imagery in the terminal](https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-1-a3253eb96082) is not your cup of tea 🍵 and you're lucky enough to have a Photoshop license, have no fear. The concepts outlined by [Tom Pattersosn](https://twitter.com/MtnMapper) for Landsat 8 [here](http://www.shadedrelief.com/landsat8/) can be easily applied to other sensors.  
+If [wrangling imagery in the terminal](https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-1-a3253eb96082) is not your cup of tea 🍵 and you're lucky enough to have a Photoshop license, have no fear. The concepts outlined by [Tom Patterson](https://twitter.com/MtnMapper) for Landsat 8 [here](http://www.shadedrelief.com/landsat8/) can be easily applied to other sensors.  
 
 ## Composing Imagery 
 #### Create an RGB image from raw Landsat 8 bands in a folder
