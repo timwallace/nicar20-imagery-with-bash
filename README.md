@@ -150,3 +150,14 @@ function optimize_gif(){
 	gifsicle -b -O3 $input -o $output
 }
 ```
+
+## Bonus Randos
+#### Open Landsat 8 on AWS from terminal with a scene ID
+
+```
+function l8aws() {
+	scene=$1
+	pathrow=$(echo expr $1|awk -F '_' '{print $3}'|sed 's/^\(.\{3\}\)/\1\//')
+	open "https://landsatonaws.com/L8/"$pathrow"/"$scene
+}
+```
