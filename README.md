@@ -1,7 +1,7 @@
 # nicar20-imagery-with-bash
-[Reference](https://natelandau.com/my-mac-osx-bash_profile/) on Bash profiles.
+[Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) profile [tips](https://natelandau.com/my-mac-osx-bash_profile/).
 
-Here are a few basic [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) scripts to get you started with earth imagery processing in the terminal.
+This document provides a few basic Bash scripts to get you started with earth imagery processing in the terminal.
 
 Dependencies: [FFmpeg](https://www.ffmpeg.org/), [GDAL](https://gdal.org/), [Gifsicle](https://www.lcdf.org/gifsicle/), [ImageMagick](https://imagemagick.org/index.php)
 
